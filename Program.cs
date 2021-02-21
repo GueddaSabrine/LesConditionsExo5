@@ -7,15 +7,15 @@ namespace LesConditionsExo5
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            //À l’aide de la console, inviter l’utilisateur à renseigner un mois parmi les 12 mois de disponibles.
-            //Dans la console, selon le mois renseigné, afficher un des messages suivants :
-            //« La saison du mois saisi est le PRINTEMPS. »
-            //« La saison du mois saisi est l'ÉTÉ. »
-            //« La saison du mois saisi est l'AUTOMNE. »
-            //« La saison du mois saisi est l'HIVER. »
+            /*À l’aide de la console, inviter l’utilisateur à renseigner un mois parmi les 12 mois de disponibles.
+            Dans la console, selon le mois renseigné, afficher un des messages suivants :
+            « La saison du mois saisi est le PRINTEMPS. »
+            « La saison du mois saisi est l'ÉTÉ. »
+            « La saison du mois saisi est l'AUTOMNE. »
+            « La saison du mois saisi est l'HIVER. »*/
 
             //int month = 1;
-            Console.WriteLine("Entrez le numéro du mois : ");
+            Console.WriteLine("Entrez le numéro du mois :");
             int month =Convert.ToInt32(Console.ReadLine());
             //string month = Console.ReadLine(); (with letter)
 
@@ -60,9 +60,7 @@ namespace LesConditionsExo5
                 default:
                     Console.WriteLine("Ce mois n'existe pas.");
                     break;
-
-            }
-                
+            }               
         }
     }
 }
